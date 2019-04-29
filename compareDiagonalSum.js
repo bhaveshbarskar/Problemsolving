@@ -9,6 +9,7 @@ var a = () => {
       if (row === col) {
         sum_of_left += arr[row][col];
       }
+ //right sum 
       if (row + col === arr.length - 1) {
         sum_of_right += arr[row][col];
       }
